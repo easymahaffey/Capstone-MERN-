@@ -1,0 +1,27 @@
+.quoteBoxArea {
+  margin-left: 15%;
+  height: 80vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box{
+  width: 80vw;
+  height: 80vh;
+  border: 5px solid dimgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tweet-quote{
+  margin-top: .5rem;
+}
+
+img {
+  width: 25px
+}

@@ -1,0 +1,31 @@
+.landing_modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_modal, .profile_modal, .password_modal, .delete_modal {
+  display:inline-block;
+  width: "50vw";
+  height: "50vh";
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(200, 238, 252, 0.9);
+}
+
+.password_modal, .delete_modal{
+  background-color: rgba(196, 219, 228, 0.9);
+}
+
+.CloseBtn{
+  background: none;
+  color: black;
+  border: none;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.Jumbotron{
+  background-color: rgba(201, 234, 247, 0.5);
+}

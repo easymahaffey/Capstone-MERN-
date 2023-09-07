@@ -1,0 +1,11 @@
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  padding-bottom: 1rem;
+  background-color: rgb(63, 63, 63);
+  color:beige;
+}
